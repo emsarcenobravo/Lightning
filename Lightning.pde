@@ -12,6 +12,8 @@ strokeWeight(4);
 frameRate(20);
 }
 void draw(){
+fill(0,0,0,20);
+rect(0,0,600,600);
 //rain
 noStroke();
 fill(0,0,255);
@@ -30,8 +32,7 @@ y = y + 6;
 if(y > width + 20){
   y = 80;
 }
-fill(0,0,0,10);
-rect(0,0,600,600);
+
 //lightning
 stroke((int)(Math.random()*139),(int)(Math.random()*44),(int)(Math.random()*227));
 while(endY < 601){
