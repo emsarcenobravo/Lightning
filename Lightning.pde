@@ -12,7 +12,6 @@ background(0,0,0);
 strokeWeight(4);
 frameRate(20);
 }
-
 void draw(){
 //rain
 noStroke();
@@ -34,7 +33,6 @@ if(y > width + 20){
 }
 fill(0,0,0,15);
 rect(0,0,600,600);
-
 //lightning
 stroke((int)(Math.random()*139),(int)(Math.random()*44),(int)(Math.random()*227));
 while(endY < 601){
@@ -60,7 +58,6 @@ ellipse(420,129,130,100);
 //bottom right
 ellipse(470,140,100,50);
 }
-
 void mousePressed(){
 background(0,0,0);
 startX = 300;
@@ -70,4 +67,3 @@ endY = 0;
 redraw();
 }
  
-
